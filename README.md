@@ -1,16 +1,15 @@
-# Women in Machine Learning  Presentation 2024 (Mastering SQL for Data Science)
+# Women in Machine Learning  Presentation 2024 
 This repository keeps track of my women in machine learning presentation document, Accra Branch.
 
 
+# Mastering SQL for Data Science - Project Files 
 
-
-# Master SQL for Data Science - Project Files
-
-This repository contains all the necessary files for the **Master SQL for Data Science** presentation and practical session. Below is a detailed description of each file and its purpose.
+This repository contains all the necessary files for the **Masterign SQL for Data Science** presentation and practical session. 
+Below is a detailed description of each file and its purpose.
 
 ## Overview
 The project demonstrates:
-- How to normalize a dataset for machine learning into three separate tables.
+- Normalize a dataset for machine learning into three separate tables.
 - Writing SQL queries to retrieve data for analysis.
 - Understanding the importance of database normalization and querying skills in data science workflows.
 
@@ -18,13 +17,18 @@ The dataset represents a simulated customer purchase system. It includes informa
 
 ## File Descriptions
 
+### 0. ** Presentation_wim.pdf** 
+
+This is the presentation slide used during the program. It covers data, databases, 
+Datawarehousing, OLAP, OLTP, Data Science, SQL etc.
+
 ### 1. **create_customerpurchase_dat.sql**
 - **Purpose**: Creates and populates a database for the customer purchase system.
 - **Tables Created**:
   - `Customer`: Stores customer information.
   - `Product`: Contains product details.
   - `Purchase`: Tracks purchase records, linking customers to the products they bought.
-- **Usage**: Execute this script to initialize the database and populate it with sample data.
+- **Usage**: Execute this script to initialize and populate the database with sample data.
 
 ### 2. **customer.sql**
 - **Purpose**: Contains SQL commands specific to creating and managing the `Customer` table.
@@ -55,16 +59,17 @@ The dataset represents a simulated customer purchase system. It includes informa
 ### 6. **query_history.txt**
 - **Purpose**: Contains the history of all SQL queries executed during the session.
 - **Details**:
-  - Logs queries written in an online SQL environment.
+  - Log queries written in an online SQL environment.
   - Useful for reviewing and replicating the practical steps demonstrated in the presentation.
 
 ## How to Use
 
 ### Prerequisites
-- A SQL database system (e.g., MySQL, PostgreSQL, SQLite).
+- A SQL database system (e.g., MySQL, PostgreSQL).
 - A database client (e.g., MySQL Workbench, DBeaver, or an online SQL platform).
 
 ### Steps
+
 1. **Set up the database**:
    - Run `create_customerpurchase_dat.sql` to create the database and populate it with sample data.
 2. **Understand the schema**:
